@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+    background-image: url("../images/2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+table
+{
+	
+	background-color: rgba(203,203,203,0.24);
+	width:50%;
+	font-size:18px;
+	border-radius: 10px;
+	border:1px soid rgba(255,255,255,0.3);
+	box-shadow: 2px 2px 15px
+	rgba(0,0,0,0.3);
+	color:black;
+	
+}
+input[type=text],input[type=password]
+{
+    width: 100%;
+    padding: 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+	font-size: 14px;
+	border-radius: 25px;
+}
+
+input[type=submit]{
+    width: 30%;
+	height: 140%;
+    border-radius: 30px;
+    box-sizing: border-box;
+    resize: vertical;
+	font-size: 14px;
+	
+}
+
